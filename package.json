@@ -1,0 +1,15 @@
+{
+  "name": "guiron_site",
+  "version": "1.0.0",
+  "description": "Personal project. Made to play with p5.js",
+  "main": "p5.js",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Ortiz",
+  "license": "MIT"
+}

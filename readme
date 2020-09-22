@@ -1,0 +1,22 @@
+I'm using the built-in Python web server for development and testing purposes. I access this by navigating to the project directory via terminal and entering the following command:
+python3 -m http.server
+
+On second thought, let's use Node instead. The Python server is apparently very slow.
+I already have both node and npm installed, so all I need to do is run the following command from the project directory:
+http-server 
+
+I kept the processing sketch directory titled 'Guiron_sketch' both for reference and for testing purposes. I moved  the base code to the JS file 'sketch.js'
+
+They have an example for loading images which proved useful. 
+https://p5js.org/examples/image-alpha-mask.html
+
+I'm using the following photo:
+https://www.flickr.com/photos/70209763@N00/263411583 (make sure to credit the source)
+Which I obtained from the Creative Commons: https://search.creativecommons.org/photos/e85ab180-7125-49b4-9c8e-85452444d567
+
+09/05/2020
+I've decided to simplify the scope significantly and remove all interactive elements from this build of the site, as I don't want to obsess over features that I haven't set up the infrastructure for. That and I just want to get this project done so I can move on to the next one. 
+
+The collission detection is shite, but I have a base system that works for what I want it to do. 
+
+The question is: Do I settle for something sheisty (for now) and make it work, or invest more time into having a single product that does exactly what I want it do?
